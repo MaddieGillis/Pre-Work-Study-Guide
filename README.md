@@ -4,7 +4,7 @@
 
 The webpage is a study guide for the prework for bootcamp. It covers: HTML, CSS, Git, and JavaScript. The page was built to provide and easy and condensed reference for the infromation provided in the prework. It helps cover all the new information about HTML, CSS, Git, and JavaScript we learned.
 
-?
+
 
 
 
