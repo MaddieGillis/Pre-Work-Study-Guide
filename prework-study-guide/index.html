@@ -11,6 +11,9 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
+
+      
     </header>
     <main>
       <section class="card" id="html-section">
@@ -46,7 +49,7 @@
             <li>DRY principle: DRY stands for “Do Not Repeat Yourself”. Instead of writing the same code multiple times, one can use commas to assign code to multiple elements.</li>
             <li>(More will be added once I can figure out how to show example code)</li>
             <li>A margin indicates how much space we want around the outside of an element.</li>
-              <li>A padding indicates how much space we want around the content inside an element.</li>
+            <li>A padding indicates how much space we want around the content inside an element.</li>
             
           </ul>
         </section>
@@ -54,16 +57,65 @@
         <section class="card" id="git-section">
           <h2>Git</h2>
           <ul>
+            <li>Github is used to help teams of developers work on the same project at the same time.</li>
+            <li>Github lets people save iterations of their code so if something goes wrong people can revert back to previous versions without losing progress.</li>
             <li>git status: checks what branch we are currently on</li>
             <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+            <li>in git bash, commands relating to git start with git</li>
+            <li>git add -A adds all commits on the currnet branch</li>
+            <li>git commit -m "comment" lets you add a comment to the commit by writing the discriptive comment between the parentheses</li>
+            <li>git pull origin branch-name makes sure the local brach is up to date.</li>
+            <li>git push origin branch-name pushes the code to the remote repository</li>
+            <li>Once the code is pushed to the remote repository, it creates a pull request, or PR.</li>
+            <li>Ideally other peers and or team members will review the PR and make sure it works well. Once all parties agree the PR will be commited to the main code.</li>
           </ul>
         </section>
      
         <section class="card" id="javascript-section">
           <h2>JavaScript</h2>
           <ul>
-            <li>Enter your JavaScript notes here</li>
+            <li>Java Script was invented by Brendan Eich. </li>
+            <li>JavaScript is dynamic language. Variables in JavaScript are not directly associated with any specific value type and any variable can be assigned values of all type.</li>
+            <li>The set types in JavaScript language consists of primitive values and objects.</li>
+            <li> Primitive values are data that are not an object and have no method or properties </li>
+            <li>Examples of primitive values are:
+              <ul>
+                <li>Boolean type: Represents a logical entity and can have 2 values: “True” and 			“False”. </ul>
+                <li>Numbers type </li>
+                <li>String type: Used to represent textual data.</li>
+              </ul>
+            <li>Objects are a collection of properties.</li>
+            <li>A key value is either a string value of a symbol value</li>
+            <li>There are two types of data object properties: data property and accessor property</li>
+            <li>A variable is a named container that allows us to store data in our code.</li>
+            <li>Control flow is the order in which a computer executes code in a script.</li>
+            <li>Conditional Statements and Loops can interrupt the control flow order.</li>
+            <li>If statements are conditional logic.</li>
+            <li>Something is considered ‘Falsy’ if it’s: 0, -0, undefined, NaN, or a boolean data type with a false value.</li>
+            <li>Truthy is all other values</li>
+            <li>If statements are conditional logic used in a block of code dependent on the variable. The computer will go done the list until the condition is met.</li>
+              <ul>
+                <li> for example: If our variable is x, we would say “if var is x then y action”. </li>
+              </ul>
+            <li> An If statement usually ends with else. </li>
+            <li> An Array is a single variable that holds group data that is typically related. </li>
+            <li> To recall a specific variable from an array we would use the index number. The index number is based on where the variable is in line. Starting with 0 and goes up by one.</li>
+            <li>For loops are a type of loop that uses the predictable pattern of indices to preform a task with all items of an array by allowing a single code block repeatedly.</li>
+            <li>A For loop contains three important statements: </li>
+              <ul>
+                <li>The first statement determines the starting point. To do so we declare a variable x and give it the value of 0. </li>
+                <li>Next statement is the condition. For example length. Looking like: x < var length.</li>
+                <li>The final statement allows the array to iterate over each time. For example: x+1”. </li>
+                  <ul>
+                    <li>x++ can serve as a shortcut for writing x+1.</li>
+                  </ul>
+              </ul>
+            <li>A function is a set of instructions that tells a computer how to preform a certain task.</li>
+            <li>Unlike a For loop, a function must be specifically called to function. Kind of like a reference section of a book. </li>
+            <li>The example used was making tea. One must write out the steps to make tea, but one doesn’t want to write it out every time they make a cup of tea. So a function serves to define the steps wanted, and can be called anytime by it’s name and the code will know what to run.</li>
           </ul>
+          
+          
         </section>
 
     </main>
@@ -71,5 +123,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
